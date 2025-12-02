@@ -1,12 +1,17 @@
-for frontend
->cd frontend
->npm install
->npm run dev
+# Navigate to frontend directory
+cd frontend
 
-for backend
+# Install dependencies
+npm install
 
->cd backend
->pip install,django install on local machine
-//work on virtual env .This should be installed on branch 
->python manage.py runserver
+# Start development server
+npm run dev
 
+# Navigate to backend directory
+cd backend
+
+# Install required Python packages (use virtual environment recommended)
+pip install -r requirements.txt
+
+# Run Django development server
+python manage.py runserver
